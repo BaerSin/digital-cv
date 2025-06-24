@@ -16,6 +16,10 @@
 }
 
 /* phần cho mục tiêu và thông tin */
+.muctieu-thongtin {
+  display: block;
+}
+
 .muctieu {
   padding-left: 10%;
   text-align: left;
@@ -23,8 +27,12 @@
 
 /* phần kinh nghiệm */
 .kinhnghiem {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: block;
+}
+
+.box-01 {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /* phần chứng chỉ */

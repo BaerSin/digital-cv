@@ -5,3 +5,13 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
+/* phần reponsive cho trang project-charter */
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.box {
+  margin: 1%;
+}

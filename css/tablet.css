@@ -1,0 +1,7 @@
+/* Tablet CSS (width < 992px)  */
+
+/* phần kinh nghiệm */
+.kinhnghiem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

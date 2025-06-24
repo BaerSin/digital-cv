@@ -1,0 +1,61 @@
+/* Mobile CSS (width < 600px) */
+
+/* phần cho bar */
+.info-navbar {
+  display: block;
+  gap: 12px;
+  padding: 10px;
+}
+
+.navbar .item-1,
+.navbar .item-2,
+.navbar .item-center {
+  width: 100%;
+  justify-content: flex-start;
+  border: none;
+}
+
+/* phần cho mục tiêu và thông tin */
+.muctieu {
+  padding-left: 10%;
+  text-align: left;
+}
+
+/* phần kinh nghiệm */
+.kinhnghiem {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* phần chứng chỉ */
+.certification {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.web,
+.database,
+.empty {
+  border: none;
+}
+
+.javascript,
+.web,
+.database {
+  border-bottom: 1px solid orange;
+  padding: 0%;
+}
+
+/* phần dự án */
+.du-an {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.container {
+  display: block;
+}
+
+.box {
+  margin: 5%;
+}
